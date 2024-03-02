@@ -10,7 +10,7 @@ export default function NewPostPage() {
     description: ""
   });
 
-  // 컴포넌트가 마운트될 때 로컬 스토리지에서 이미지 데이터를 가져와 상태를 업데이트합니다.
+  //컴포넌트가 마운트될 때 로컬 스토리지에서 이미지 데이터를 가져와 상태를 업데이트합니다.
   //localStorage 첫 마운트시 사용할 경우 발생하는 오류로 인해 수정하였습니다.
   useEffect(() => {
     const imgData = localStorage.getItem("prevImgData") || "";
