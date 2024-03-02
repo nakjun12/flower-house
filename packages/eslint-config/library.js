@@ -30,12 +30,5 @@ module.exports = {
     {
       files: ["*.js?(x)", "*.ts?(x)"]
     }
-  ],
-  rules: {
-    quotes: [
-      "error",
-      "single",
-      { avoidEscape: true, allowTemplateLiterals: false }
-    ]
-  }
+  ]
 };
